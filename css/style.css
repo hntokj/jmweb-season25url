@@ -1,0 +1,360 @@
+@charset "UTF-8"; /*PC用*/
+
+body{/*全体設定*/
+    background-image: url(../images/web-bg.jpg);
+    background-size: contain;
+    font-family:"游ゴシック","ヒラギノ角ゴ ProN";
+    width:100%;
+}
+.top {/*topページ*/
+    width: 100%;
+    text-align: center; 
+    margin-top: 3%;
+    background-image: url(../images/web-bg.jpg);
+    background-size: contain;
+}
+.head-article{
+    background-image: url(../images/web-bg.jpg);
+    background-size: contain;
+}
+
+header .top img{ /*top画像*/
+    width: 80%;
+    border-bottom: 20px double black;
+}
+.top-info{/*ページタイトルから日付まで⬇️*/
+    padding-bottom: 20px;
+}
+.top-info .title a{
+    display: block;
+    width: 100%;
+    background-image:url(../images/orinnpasu-topへ.jpg);
+    background-size: contain;
+}
+.top-info .title a h2{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 35px;
+    font-weight: 600;
+}
+time{
+    background-color: #91c777;
+    border-radius: 0px 22px 22px 22px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 13px 25px 12px 28px;
+    display: inline-block;
+    margin:10px 0px 20px 0px;
+}
+main{/*メイン背景*/
+    background-image: url(../images/web-bg.jpg);
+    background-size: contain;
+}
+section{/*バックだいだい色のとこ*/
+    width: 60%;
+    margin:0px auto 0px auto ;
+    background-color:rgb(254, 239, 225);
+    padding-top: 20px;
+}
+/*---------- ⬇SNSボタン⬇ ----------*/
+.home {
+    background-color: #6ab547;
+}
+.youtube{
+    background-color: red;
+}
+.x{
+    background-color: black;
+}
+article ul li a{ /*ページタイトル*/
+    background-image:url(../images/orinnpasu-topへ.jpg) ;
+    background-size: contain;
+    display:flex;
+    padding:8px;
+    color:#ffffff;
+    font-size: 25px;
+    font-weight: 600;
+}
+article ul{
+    margin: 5px auto;
+    display:flex;
+    justify-content: center; 
+}
+article ul li{/*ボタンの間*/
+    margin:0 20px;
+}
+article ul li a:hover{
+    color:rgb(0, 157, 255);
+text-decoration: underline double;
+}
+article nav{
+    width:80%;
+    background-color: black;
+    background-size: contain;
+    background-size: 100%;
+    margin: 0px auto 10px auto; 
+}
+article{
+    background-image: url(../images/web-bg.jpg) ;
+    background-size: contain;
+}/*---------- ⬆SNSボタン⬆ ----------*/
+
+
+/*----sectoin内　文----*/
+.hajimeni h5{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.URLmatome{
+    width: 90%;
+    border:5px solid black;
+    margin: 10px auto;
+    background-color: #717171;
+}
+.URLmatome ul{
+    display:flex;
+}
+.URLmatome li {
+    display: flex;
+}
+.URLmatome img{
+    width: 30%;
+    padding: 5px
+}
+.URLmatome a{
+   font-size: 20px;
+   font-weight: bold;
+   color: white;
+   margin: auto 0px;
+}
+.URLmatome a:hover {
+    color: rgb(0, 157, 255);
+}
+
+.click h5{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(0, 157, 255);
+    text-align: center;
+}
+/*ーーーーTOPへ　ボタン⬇️ーーーー*/
+bottom{ 
+    display: flex;
+    margin: 20px auto;
+    border:6px double black;
+    width:30%;
+    background-image:url(../images/orinnpasu-topへ.jpg);
+    background-size: contain;
+}
+bottom a {
+    margin: 0px auto;
+    font-size: 30px;
+    font-weight: 900;
+}
+bottom a:hover{
+    color: rgb(0, 157, 255);
+}
+/*ーーーーTOPへボタン⬆️ーーーー*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------------------------------------*/
+@media screen and (max-width:640px){
+    body{/*全体設定*/
+        background-image: url(../images/web-bg.jpg);
+        background-size: contain;
+        font-family:"游ゴシック","ヒラギノ角ゴ ProN";
+        width:100%;
+    }
+    .top {/*topページ*/
+        width: 100%;
+        text-align: center; 
+        margin-top: 3%;
+        background-image: url(../images/web-bg.jpg);
+        background-size: contain;
+    }
+    .head-article{
+        background-image: url(../images/web-bg.jpg);
+        background-size: contain;
+    }
+    
+    header .top img{ /*top画像*/
+        width: 80%;
+        border-bottom: 20px double black;
+    }
+    .top-info{/*ページタイトルから日付まで⬇️*/
+        padding-bottom: 20px;
+    }
+    .top-info .title a{
+        display: block;
+        width: 100%;
+        background-image:url(../images/orinnpasu-topへ.jpg);
+        background-size: contain;
+    }
+    .top-info .title a h2{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    time{
+        background-color: #91c777;
+        border-radius: 0px 22px 22px 22px;
+        font-size: 12px;
+        font-weight: bold;
+        color: #ffffff;
+        padding: 8px 20px 7px 23px;
+        display: inline-block;
+        margin:10px 0px 20px 0px;
+    }
+    main{/*メイン背景*/
+        background-image: url(../images/web-bg.jpg);
+        background-size: contain;
+    }
+    section{/*バックだいだい色のとこ*/
+        width: 90%;
+        margin:0px auto 0px auto ;
+        background-color:rgb(254, 239, 225);
+        padding-top: 20px;
+    }
+    /*---------- ⬇SNSボタン⬇ ----------*/
+    .home {
+        background-color: #6ab547;
+    }
+    .youtube{
+        background-color: red;
+    }
+    .x{
+        background-color: black;
+    }
+    article ul li a{ /*ページタイトル*/
+        background-image:url(../images/orinnpasu-topへ.jpg) ;
+        background-size: contain;
+        display:flex;
+        padding:4px;
+        color:#ffffff;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    article ul{
+        margin: 5px auto;
+        display:flex;
+        justify-content: center; 
+    }
+    article ul li{/*ボタンの間*/
+        margin:0 10px;
+    }
+    article ul li a:hover{
+        color:rgb(0, 157, 255);
+    text-decoration: underline double;
+    }
+    article nav{
+        width:80%;
+        background-color: black;
+        background-size: contain;
+        background-size: 100%;
+        margin: 0px auto 10px auto; 
+    }
+    article{
+        background-image: url(../images/web-bg.jpg) ;
+        background-size: contain;
+    }/*---------- ⬆SNSボタン⬆ ----------*/
+    
+    
+    /*----sectoin内　文----*/
+    .hajimeni h5{
+        font-size: 12px;
+        font-weight: 600;
+    }
+    
+    .URLmatome{
+        width: 90%;
+        border:5px solid black;
+        margin: 10px auto;
+        background-color: #717171;
+    }
+    .URLmatome ul{
+        display:flex;
+    }
+    .URLmatome li {
+        display: flex;
+    }
+    .URLmatome img{
+        width: 30%;
+        padding: 5px
+    }
+    .URLmatome a{
+       font-size: 12px;
+       font-weight: bold;
+       color: white;
+       margin: auto 0px;
+    }
+    .URLmatome a:hover {
+        color: rgb(0, 157, 255);
+    }
+    
+    .click h5{
+        font-size: 12px;
+        font-weight: 600;
+        color: rgb(0, 157, 255);
+        text-align: center;
+    }
+    /*ーーーーTOPへ　ボタン⬇️ーーーー*/
+    bottom{ 
+        display: flex;
+        margin: 20px auto;
+        border:6px double black;
+        width:25%;
+        background-image:url(../images/orinnpasu-topへ.jpg);
+        background-size: contain;
+    }
+    bottom a {
+        margin: 0px auto;
+        font-size: 15px;
+        font-weight: 900;
+    }
+    bottom a:hover{
+        color: rgb(0, 157, 255);
+    }
+    /*ーーーーTOPへボタン⬆️ーーーー*/
+}
